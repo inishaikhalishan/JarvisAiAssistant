@@ -1,4 +1,4 @@
 from os import system
 
 def Say(text):
-    system(f"flite -t \"{text}\"")
+    system(f"espeak-ng -v hi \"{text}\"")
